@@ -1,0 +1,28 @@
+{
+  "name": "couchsurfing",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "introspect": "drizzle-kit introspect:pg",
+    "generate": "drizzle-kit generate:pg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "drizzle-orm": "^0.28.2",
+    "express": "^4.18.2",
+    "postgres": "^3.3.5",
+    "tsx": "^3.12.7"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.19.13",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2"
+  }
+}
